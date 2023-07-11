@@ -244,3 +244,27 @@ footer{
     margin-top: 100px;
     padding: 130px 200px;
 }
+.footer-title{
+    text-align: center;
+    margin-left: 32%;
+    color: #dedede;
+
+}
+.footer-text{
+    text-align: center;
+    margin-left: 15%;
+    color: #dedede;
+    width: 100vh;
+    font-size: 14px;
+}
+.flower{
+    color: #ff2453;
+}
+.copyrights{
+    text-align: center;
+    margin-left: 15%;
+    color: #414141;
+    width: 100vh;
+    font-size: 12px;
+}
+
