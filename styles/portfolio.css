@@ -1,0 +1,233 @@
+/*Common Shared Styles*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #ffffff;
+}
+.btn-primary {
+    border-radius: 5px;
+    border: 0px;
+    background: #ff2453;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+
+
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*Header Related Style*/
+.header {
+    background-color: #ffe1e1;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    height: 100vh;
+    
+
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.biotext {
+    max-width: 500px;
+    padding-top: 100px;
+}
+
+.banner .profile-pic {
+    width: 450px;
+    height: 550px;
+    padding-top: 76px;
+    padding-right: 80px;
+}
+
+.banner .biotext {
+    color: #6a6a6a;
+}
+
+.banner-highlight {
+    font-size: 45px;
+    color: #343434;
+    padding-bottom: 25px;
+}
+
+.banner-text{
+    font-size: 16px;
+}
+
+/*Main section styles*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/*Featured Flowers related styles*/
+.featured-title {
+    color: #343434;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.featured-description{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 40px;
+    color: #6a6a6a;;
+}
+.section-title-summary {
+    color: #dedede;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+
+.festured-description {
+    color: #dedede;
+    text-align: center;
+    font-size: 18px;
+} 
+
+
+.item-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #dedede;
+    justify-content: center;
+    
+}
+.item-column2{
+    display: flex;
+    gap: 190px;
+    justify-content: center;
+    font-size: small;
+}
+.item-column2 hr{
+    margin-top: 0;
+}
+
+.item-image1 {
+    padding: 15px;
+    border-radius: 200px 200px 0 0;
+    background: #ffd5f9;
+}
+.item-image2 {
+    padding: 15px;
+    border-radius: 200px 200px 0 0;
+    background: #d9f2ff;
+}
+.item-image3 {
+    padding: 15px;
+    border-radius: 200px 200px 0 0;
+    background: #ececec;
+}
+
+.icon-size {
+    height: 280px;
+    width: 210px;
+    padding: 25px;
+}
+.item{
+    display: flex;
+}
+.social-media-icon{
+    height: 32px;
+    width: 32px;
+}
+.contact-icon{
+    height: 18px;
+    width: 18px;
+}
+.social-links a{
+    margin: 40px;
+}
+.optional{
+    width: 64px;
+    height: 64px;
+}
+.optional-image {
+    padding: 80px;
+    border-radius: 15px;
+    background: #f1eeee;
+    box-shadow: 0px 6px 50px 50px rgba(255, 255, 255, 0.06);
+}
+.optional-image-icon{
+    display: flex;
+    gap: 230px;
+    justify-content: center;
+}
+.item-column3{
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+    font-size: small;
+}
+.item-name{
+    
+    font-size: 14px;
+}
+
+.skill-description {
+    color: #6a6a6a;;
+}
+
+
+/*Hot deal section*/
+.off{
+    color: #ff2453;
+}
+.hot-deal{
+    background-color: #fff4f4;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    height: 100vh;
+}
+.banner > #deal{
+    align-items: center;
+}
+
+.banner .profile-pic2 {
+    width: 240px;
+    height: 330px;
+    padding-top: 76px;
+    padding-right: 80px;
+}
+.item-container2 {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    color: #dedede;
+    justify-content: center;
+    
+}
