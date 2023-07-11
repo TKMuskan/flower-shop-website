@@ -45,13 +45,18 @@ body {
 
 }
 
-.banner {
+.banner, .banner2 {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.biotext2 {
+    max-width: 500px;
+    padding-top: 60px;
+    text-align: center;
+}
 .biotext {
     max-width: 500px;
     padding-top: 60px;
@@ -64,7 +69,7 @@ body {
     padding-right: 80px;
 }
 
-.banner .biotext {
+.banner .biotext .biotext2 {
     color: #6a6a6a;
 }
 
@@ -73,7 +78,13 @@ body {
     color: #343434;
     padding-bottom: 25px;
 }
-
+.banner-highlight2{
+    text-align: center;
+    font-size: 30px;
+    color: #343434;
+    padding-bottom: 25px;
+    
+}
 .banner-text{
     font-size: 16px;
 }
@@ -206,17 +217,15 @@ main section {
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
-    height: 100vh;
-}
-.banner > #deal{
-    align-items: center;
+    height: 80vh;
 }
 
-.banner .profile-pic2 {
+
+.profile-pic2 {
     width: 240px;
     height: 330px;
     padding-top: 76px;
-    padding-right: 80px;
+    padding-right: 220px;
 }
 .item-container2 {
     display: flex;
